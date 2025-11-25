@@ -1,18 +1,24 @@
-# KDE (Wayland) dotfiles
+# dotfiles
+running on Fedora 43 / KDE Plasma 6.5 :) - ThinkPad X1 Carbon 6th gen
 
-#### Color
+- btop
+- Cava
+- KZones (KWin script)
+- Waybar
+
+### Color
 Dracula:
 | color            | def                |
 |------------------|--------------------|
-| background-alpha | rgba(0, 0, 0, 0.6) |
-| background       | #282a36            |
-| selection        | #44475a            |
-| foreground       | #f8f8f2            |
-| comment          | #6272a4            |
-| cyan             | #8be9fd            |
-| green            | #50fa7b            |
-| orange           | #ffb86c            |
-| pink             | #ff79c6            |
-| purple           | #bd93f9            |
-| red              | #ff5555            |
-| yellow           | #f1fa8c            |
+| background-alpha | `rgba(0, 0, 0, 0.6)` |
+| background       | `#282a36`            |
+| selection        | `#44475a `           |
+| foreground       | `#f8f8f2 `           |
+| comment          | `#6272a4`            |
+| cyan             | `#8be9fd`           |
+| green            | `#50fa7b`           |
+| orange           | `#ffb86c`            |
+| pink             | `#ff79c6`           |
+| purple           | `#bd93f9`            |
+| red              | `#ff5555`           |
+| yellow           | `#f1fa8c`            |
