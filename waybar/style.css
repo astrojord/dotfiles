@@ -170,7 +170,8 @@ label:focus {
 }
 
 #wireplumber.muted {
-    background-color: #8be9fd;
+    background-color: #ff5555;
+    color: #282a36;
 }
 
 #tray > .passive {
@@ -182,7 +183,7 @@ label:focus {
 }
 
 #mpris.playing {
-    background-color: #f1fa8c;
+    background-color: #8be9fd;
     color: #282a36;
 }
 
