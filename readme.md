@@ -1,9 +1,10 @@
 # dotfiles
-running on Fedora 43 / KDE Plasma 6.5 :) - ThinkPad X1 Carbon 6th gen
+running on Fedora 43 - ThinkPad X1 Carbon 6th gen
+split time between KDE Plasma and Sway
 
 - btop
 - Cava
-- KZones (KWin script)
+- KZones (KWin script) or Sway
 - Waybar
 
 ### Color

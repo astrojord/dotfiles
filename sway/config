@@ -255,7 +255,6 @@ client.background $background $background $foreground
 workspace 1
 exec code
 exec $term
-splitv
 exec btop
 
 workspace 2
