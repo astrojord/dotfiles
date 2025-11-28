@@ -1,11 +1,10 @@
 # dotfiles
 running on Fedora 43 - ThinkPad X1 Carbon 6th gen
-split time between KDE Plasma and Sway
 
-- btop
-- Cava
-- KZones (KWin script) or Sway
-- Waybar
+- Term: kitty
+- DE/Compositor: Sway or KWin (Plasma)
+- Launcher: wofi
+- Extras: btop, nvtop, cava, kzones (if on KWin), swaylock
 
 ### Color
 Dracula:

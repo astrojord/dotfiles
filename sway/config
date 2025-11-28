@@ -1,7 +1,3 @@
-# Default config for sway
-#
-# Copy this to ~/.config/sway/config and edit it to your liking.
-#
 # Read `man 5 sway` for a complete reference.
 
 ### Variables
@@ -15,8 +11,10 @@ set $up k
 set $right l
 
 set $term kitty
-set $wofi wofi --show drun --conf ~/.config/wofi/config --style ~/.config/wofi/style.css
-set $menu $wofi --show drun
+set $menu wofi --show drun --conf ~/.config/wofi/config --style ~/.config/wofi/style.css
+
+set $wallpaper ~/Pictures/wallpaper/japan.png
+set $lockscreen ~/Pictures/wallpaper/japan_blur.png
 
 # Window setup
 font pango:JetBrains Mono 9
@@ -28,7 +26,7 @@ gaps inner 10
 
 ### Output configuration
 # Wallpaper
-    output * bg ~/Pictures/wallpaper/japan.png fill
+    output * bg $wallpaper fill
 #
 # Example configuration:
 #
@@ -216,6 +214,8 @@ bindsym $mod+r mode "resize"
     bindsym Print exec grim ~/Pictures/screenshots/ss-$(date +"%Y-%m-%d-%H%M%S").png
     bindsym control+Shift+4 exec grim ~/Pictures/screenshots/ss-$(date +"%Y-%m-%d-%H%M%S").png
     bindsym control+Shift+3 exec slurp grim -g ~/Pictures/screenshots/ss-$(date +"%Y-%m-%d-%H%M%S").png
+    # Lock
+    bindsym $mod+m exec swaylock -e -f -i $lockscreen -C ~/.config/swaylock/config
 
 #
 # Status Bar:
