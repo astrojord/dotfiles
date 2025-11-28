@@ -8,19 +8,19 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "sway/workspaces",
-        //"cava",
-        "sway/mode",
-        "sway/scratchpad"
+        //"sway/workspaces",
+        "cava"
+        //"sway/mode",
+        //"sway/scratchpad"
     ],
-    "modules-center": [
-        "sway/window"
-    ],
+    // "modules-center": [
+    //     "sway/window"
+    // ],
     "modules-right": [
         "mpris",
         "memory",
         "load",
-	    "wireplumber",
+	"wireplumber",
         "backlight",
         "clock",
         "battery",
@@ -35,10 +35,12 @@
         "format": "{icon}",
         "format-icons": {
             "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": ""
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "9": "",
+            "10": ""
         }
     },
     "sway/window": {
