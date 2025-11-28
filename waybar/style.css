@@ -87,6 +87,7 @@ button:hover {
 
 #workspaces button.urgent {
     background-color: #ff5555;
+    color: #44475a;
 }
 
 #idle_inhibitor,

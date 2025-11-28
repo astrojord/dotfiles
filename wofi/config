@@ -1,0 +1,11 @@
+style=~/.config/wofi/style.css
+
+width=600
+height=400
+location=center
+show=drun
+allow_markup=true
+insensitive=true
+halign=fill
+orientation=vertical
+term=kitty
