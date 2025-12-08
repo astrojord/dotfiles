@@ -117,7 +117,8 @@ button:hover {
     color: #ff79c6;
 }
 
-#backlight {
+#backlight,
+#network {
     padding: 0 10px;
     background-color: #282a36;
     color: #f1fa8c;
@@ -170,7 +171,8 @@ label:focus {
     background-color: #44475a;
 }
 
-#wireplumber.muted {
+#wireplumber.muted,
+#network.disconnected {
     background-color: #ff5555;
     color: #282a36;
 }
