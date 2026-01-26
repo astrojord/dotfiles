@@ -17,11 +17,14 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Make sure to setup `mapleader` and `maplocalleader` before
 -- loading lazy.nvim so that mappings are correct.
--- This is also a good place to setup other settings (vim.opt)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
--- Setup lazy.nvim
+-- Disable netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+-- Setup lazy.nvim + other plugin confirg
 require("lazy").setup({
   spec = {
     -- add your plugins here
@@ -61,6 +64,7 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
+-- lualine config
 require('lualine').setup {
   options = {
     icons_enabled = true,
@@ -116,9 +120,29 @@ require('lualine').setup {
   extensions = {}
 }
 
--- Run startup commands
+-- Open NvimTree if the editor is a file or unnamed buffer
+-- local function open_nvim_tree(data)
+
+--   -- buffer is a real file on the disk
+--   local real_file = vim.fn.filereadable(data.file) == 1
+
+--   -- buffer is a [No Name]
+--   local no_name = data.file == "" and vim.bo[data.buf].buftype == ""
+
+--   if not real_file and not no_name then
+--     return
+--   end
+
+--   -- open the tree, find the file but don't focus it
+--   require("nvim-tree.api").tree.toggle({ focus = false, find_file = true, })
+-- end
+
+-- vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
+
+-- Set theme
 vim.cmd.colorscheme 'dracula'
 
+-- Set telescope bindings
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
