@@ -4,6 +4,7 @@ running on Fedora 43 - ThinkPad X1 Carbon 6th gen
 - Term: kitty
 - DE/Compositor: Sway or KWin (Plasma)
 - Launcher: wofi
+- Editor: neovim + lazy
 - Extras: btop, nvtop, cava, kzones (if on KWin), swaylock
 
 ### Color
