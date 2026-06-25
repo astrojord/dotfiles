@@ -1,0 +1,26 @@
+{
+  "version": "1.1.0",
+  "exportDate": "2026-01-28T04:35:01.798Z",
+  "settings": {
+    "userName": "Jordan",
+    "colorScheme": "dracula",
+    "theme": "dark",
+    "colorMode": null,
+    "timeFormat": "12",
+    "showSeconds": "true",
+    "tempUnit": null,
+    "showQuotes": null,
+    "enabledEngines": "[\"google\",\"youtube\",\"wikipedia\"]",
+    "preferredEngine": "google",
+    "weatherLocation": "Seattle, US",
+    "openWeatherApiKey": null,
+    "linkBehavior": null,
+    "showKeyboardHints": null,
+    "footerLeft": "blank",
+    "footerCenter": null,
+    "footerRight": "blank",
+    "socialLinks": "[{\"name\":\"Facebook\",\"icon\":\"fa-brands fa-facebook\",\"visible\":false,\"url\":\"\"},{\"name\":\"Instagram\",\"icon\":\"fa-brands fa-instagram\",\"visible\":false,\"url\":\"\"},{\"name\":\"Twitter/X\",\"icon\":\"fa-brands fa-x-twitter\",\"visible\":false,\"url\":\"\"},{\"name\":\"LinkedIn\",\"icon\":\"fa-brands fa-linkedin\",\"visible\":false,\"url\":\"\"},{\"name\":\"GitHub\",\"icon\":\"fa-brands fa-github\",\"visible\":true,\"url\":\"https://github.com/astrojord\"},{\"name\":\"YouTube\",\"icon\":\"fa-brands fa-youtube\",\"visible\":true,\"url\":\"https://youtube.com\"},{\"name\":\"TikTok\",\"icon\":\"fa-brands fa-tiktok\",\"visible\":false,\"url\":\"\"},{\"name\":\"Discord\",\"icon\":\"fa-brands fa-discord\",\"visible\":false,\"url\":\"\"},{\"name\":\"Reddit\",\"icon\":\"fa-brands fa-reddit-alien\",\"visible\":true,\"url\":\"https://reddit.com/u/-Hjonk\"},{\"name\":\"Mastodon\",\"icon\":\"fa-brands fa-mastodon\",\"visible\":false,\"url\":\"\"}]"
+  },
+  "categories": "[{\"id\":\"dev\",\"name\":\"Development\",\"icon\":\"fa-solid fa-code\"},{\"id\":\"social\",\"name\":\"Social\",\"icon\":\"fa-solid fa-users\"},{\"id\":\"media\",\"name\":\"Media\",\"icon\":\"fa-solid fa-play\"},{\"id\":\"productivity\",\"name\":\"Other\",\"icon\":\"fa-solid fa-o\"}]",
+  "links": "{\"dev\":[{\"name\":\"GitHub\",\"url\":\"https://github.com\",\"icon\":\"fa-brands fa-github\"},{\"name\":\"astrojord@GitHub\",\"url\":\"https://github.com/astrojord\",\"icon\":\"fa-brands fa-github\"},{\"name\":\"Stack Overflow\",\"url\":\"https://stackoverflow.com\",\"icon\":\"fa-brands fa-stack-overflow\"},{\"name\":\"CodePen\",\"url\":\"https://codepen.io\",\"icon\":\"fa-brands fa-codepen\"},{\"name\":\"Docker\",\"url\":\"https://docker.com\",\"icon\":\"fa-brands fa-docker\"}],\"social\":[{\"name\":\"Reddit\",\"url\":\"https://reddit.com\",\"icon\":\"fa-brands fa-reddit-alien\"},{\"name\":\"Twitch\",\"url\":\"https://twitch.tv\",\"icon\":\"fa-brands fa-twitch\"},{\"name\":\"Steam\",\"url\":\"https://steam.com\",\"icon\":\"fa-brands fa-steam\"}],\"media\":[{\"name\":\"YouTube\",\"url\":\"https://youtube.com\",\"icon\":\"fa-brands fa-youtube\"},{\"name\":\"Spotify\",\"url\":\"https://spotify.com\",\"icon\":\"fa-brands fa-spotify\"},{\"name\":\"Netflix\",\"url\":\"https://netflix.com\",\"icon\":\"fa-solid fa-film\"},{\"name\":\"aether.mom\",\"url\":\"https://aether.mom\",\"icon\":\"fa-solid fa-person-dress\"},{\"name\":\"Prime Video\",\"url\":\"https://primevideo.com\",\"icon\":\"fa-brands fa-amazon\"},{\"name\":\"Plex\",\"url\":\"https://plex.tv\",\"icon\":\"fa-solid fa-circle-play\"}],\"productivity\":[{\"name\":\"Foundry\",\"url\":\"http://52.3.175.56:30000/\",\"icon\":\"fa-solid fa-hammer\"},{\"name\":\"5e.tools\",\"url\":\"https://2014.5e.tools\",\"icon\":\"fa-solid fa-dice-d20\"},{\"name\":\"Gmail\",\"url\":\"https://mail.google.com\",\"icon\":\"fa-solid fa-envelope\"},{\"name\":\"Drive\",\"url\":\"https://drive.google.com\",\"icon\":\"fa-brands fa-google-drive\"},{\"name\":\"NHL\",\"url\":\"https://nhl.com\",\"icon\":\"fa-solid fa-hockey-puck\"},{\"name\":\"MLB\",\"url\":\"https://mlb.com\",\"icon\":\"fa-solid fa-baseball\"}]}"
+}
