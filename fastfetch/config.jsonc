@@ -8,83 +8,111 @@
         }
     },
     "display": {
-        "separator": ">  ",
+        "separator": " ",
         "color": {
-            "separator": "white"
-        },
-        "constants": [
-            "───────────────────────────────────────────────────────────────────────────",
-            "│\u001b[75C│\u001b[75D"
-        ]
+        "keys": "white",
+        "title": "white",
+        "separator": "white"
+        }
     },
     "modules": [
+        { "type": "custom", "format": "" },
+
         {
-            "format": "{#1}{#keys}╭{$1}╮\u001b[76D {user-name-colored}{at-symbol-colored}{host-name-colored} 🖥  ",
-            "type": "title"
+            "key": "╭─────────────╮",
+            "type": "custom"
         },
+
+        // ── System ──
         {
-            "key": "{$2}{#31} kernel   ",
-            "type": "kernel"
-        },
-        {
-            "key": "{$2}{#31}󰅐 uptime   ",
-            "type": "uptime"
-        },
-        {
-            "key": "{$2}{#33}{icon} distro   ",
+            "key": "│ {#31}  Distro   {#keys}│",
             "type": "os"
         },
         {
-            "key": "{$2}{#34}󰇄 desktop  ",
+            "key": "│ {#31}  DE       {#keys}│",
             "type": "de"
         },
         {
-            "key": "{$2}{#36} term     ",
+            "key": "│ {#31}  WM       {#keys}│",
+            "type": "wm"
+        },
+        {
+            "key": "│ {#31}  Kernel   {#keys}│",
+            "type": "kernel"
+        },
+        {
+            "key": "│ {#33}  Terminal {#keys}│",
             "type": "terminal"
         },
         {
-            "key": "{$2}{#36} shell    ",
+            "key": "│ {#33}  Shell    {#keys}│",
             "type": "shell"
         },
         {
-            "key": "{$2}{#32}󰍛 cpu      ",
-            "type": "cpu",
-            "showPeCoreCount": true,
-            "temp": true
+            "key": "│ {#33}󰏖  Packages {#keys}│",
+            "type": "packages"
+        },
+
+        {
+            "key": "├─────────────┤",
+            "type": "custom"
+        },
+
+        // ── Hardware ──
+        {
+            "key": "│ {#33}󰇅  Machine  {#keys}│",
+            "type": "host"
         },
         {
-            "key": "{$2}{#32}󰍛 gpu      ",
+            "key": "│ {#32}󰍛  CPU      {#keys}│",
+            "type": "cpu",
+            "showPeCoreCount": true
+        },
+        {
+            "key": "│ {#32}󰍛  GFX      {#keys}│",
             "type": "gpu"
         },
         {
-            "key": "{$2}{#32}󰉉 disk     ",
-            "type": "disk",
-            "folders": "/"
+            "key": "│ {#32}󰍛  Vulkan   {#keys}│",
+            "type": "vulkan"
         },
         {
-            "key": "{$2}{#32} memory   ",
+            "key": "│ {#36}󰟶  Memory   {#keys}│",
             "type": "memory"
         },
         {
-            "key": "{$2}{#35}󰩟 network  ",
-            "type": "localip",
-            "format": "{ipv4} ({ifname})"
+            "key": "│ {#36}󰣁  Swap     {#keys}│",
+            "type": "swap"
         },
+
         {
-            "key": "{$2}{#35}󰥠 sound    ",
+            "key": "├─────────────┤",
+            "type": "custom"
+        },
+
+        // ── Storage ──
+        {
+            "key": "│ {#34}󰉉  Storage  {#keys}│",
+            "type": "disk"
+        },
+
+        {
+            "key": "├─────────────┤",
+            "type": "custom"
+        },
+
+        // ── Mídia ──
+        {
+            "key": "│ {#35}󰜟  Sound    {#keys}│",
             "type": "sound"
         },
         {
-            "format": "{#1}{#keys}├{$1}┤",
-            "type": "custom"
+            "key": "│ {#35}  Media    {#keys}│",
+            "type": "media"
         },
+
         {
-            "key": "{$2}{#39} colors   ",
-            "type": "colors",
-            "symbol": "circle"
-        },
-        {
-            "format": "{#1}{#keys}╰{$1}╯",
+            "key": "╰─────────────╯",
             "type": "custom"
         }
     ]
